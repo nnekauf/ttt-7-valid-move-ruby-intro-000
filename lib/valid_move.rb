@@ -20,10 +20,10 @@ def valid_move?(board, index)
       return false
     end
   end
-  if (position_taken(board, index) == true) && (on_board?(number_entered)== false)
-    return false
-    elsifposition_taken== false && on_board?==true
+  if (position_taken(board, index) == false) && (on_board?(number_entered)== true)
     return true
+  else
+    return false
   end
 end
 
