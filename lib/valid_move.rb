@@ -15,5 +15,9 @@ def valid_move?(board, index)
   end
 end
 
-def on_board?(input)
-input.between? (1,9)
+def on_board?(number)
+  if number.between? (1,9)
+    return true
+  else
+    return false
+  end
