@@ -13,6 +13,12 @@ def valid_move?(board, index)
       return true
     end
   end
-  
+  def on_board?(number_entered)
+    if number_entered.between? (0, 8)== true
+      return true
+    else
+      return false
+    end
+  end
 end
 
