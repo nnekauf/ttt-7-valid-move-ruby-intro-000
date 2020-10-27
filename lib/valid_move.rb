@@ -15,4 +15,4 @@ def valid_move?(board, index)
   end
 end
 
-input.between
+input.between? (1,9)
