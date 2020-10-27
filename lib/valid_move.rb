@@ -15,4 +15,5 @@ def valid_move?(board, index)
   end
 end
 
+def
 input.between? (1,9)
